@@ -1,0 +1,20 @@
+# Ignore environment files
+# src/.env
+# src/.env.*
+
+# Ignore dependencies & build files
+src/node_modules
+src/vendor
+src/storage/logs
+src/storage/framework/cache
+src/src/storage/framework/sessins
+storage/framework/views
+
+# Ignore IDE/editor files
+.vscode
+.idea
+*.swp
+
+# Ignore Docker build cache
+Dockerfile*
+.dockerignore
